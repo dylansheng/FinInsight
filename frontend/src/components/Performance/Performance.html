@@ -1,0 +1,38 @@
+<div id="performance" class="viewcontainer">
+	<el-row>
+		<el-col :span="24">
+			<div class="viewheader">Overall Performance</div>
+		</el-col>
+	</el-row>
+	<el-row>
+		<div class="viewbody">
+			<el-row :span=5>
+				<div id="distribution"></div>
+			</el-row>
+			<el-row :span=20>
+				<div id="statistic">
+					<el-row :span=5>
+						<div id="part1">
+							<el-col :span="12">
+								<div id="mse"></div>
+							</el-col>
+							<el-col :span="12">
+								<div id="sharpe"></div>
+							</el-col>
+						</div>
+					</el-row>
+					<el-row :span=20>
+						<div id="part2">
+							<el-col :span="12">
+								<div id="accuracy"></div>
+							</el-col>
+							<el-col :span="12">
+								<div id="difference"></div>
+							</el-col>
+						</div>
+					</el-row>
+				</div>
+			</el-row>
+		</div>
+	</el-row>
+</div>

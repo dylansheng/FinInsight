@@ -1,0 +1,42 @@
+<div id="similarityrecommend" class="viewcontainer">
+	<el-row>
+		<el-col :span="24">
+			<div class="viewheader">Similarity Recommend</div>
+		</el-col>
+	</el-row>
+	<el-row>
+		<div class="viewbody">
+			<el-row :span=5>
+				<div id="select">
+					<p></p>
+					<div>
+						 <el-checkbox-group v-model="checkboxGroup1">
+						      <el-checkbox label="figure 1" border></el-checkbox>
+						      <el-checkbox label="figure 2" border></el-checkbox>
+							  <el-checkbox label="figure 3" border></el-checkbox>
+							  <el-checkbox label="figure 4" border></el-checkbox>
+							  <el-checkbox label="figure 5" border></el-checkbox>
+						</el-checkbox-group>
+					</div>
+					<div>
+						 <el-checkbox-group v-model="checkboxGroup1">
+						      <el-checkbox label="figure 6" border></el-checkbox>
+						      <el-checkbox label="figure 7" border></el-checkbox>
+							  <el-checkbox label="figure 8" border></el-checkbox>
+							  <el-checkbox label="figure 9" border></el-checkbox>
+							  <el-checkbox label="figure X" border></el-checkbox>
+						</el-checkbox-group>
+					</div>
+				</div>
+			</el-row>
+			<el-row :span=20>
+				<el-col :span=12>
+					<div id="cluster"></div>
+				</el-col>
+				<el-col :span=12>
+					<div id="simdisplay"></div>
+				</el-col>
+			</el-row>
+		</div>
+	</el-row>
+</div>
